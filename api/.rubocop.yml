@@ -5,3 +5,6 @@ Metrics/CyclomaticComplexity:
 Metrics/PerceivedComplexity:
   Exclude:
     - 'bin/bundle'
+Metrics/BlockLength:
+  Exclude:
+    - db/schema.rb
